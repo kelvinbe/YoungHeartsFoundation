@@ -1,6 +1,12 @@
 import { ArrowRight, Play } from "lucide-react";
 import Header from "../components/Header";
-import { HelpSection, StorySection, VolunteerBanner, ImpactStats, Campaigns, DonationCta, Footer } from "../components/Section";
+import { HelpSection } from "../components/HelpSection";
+import { VolunteerBanner } from "../components/VolunteerBanner";
+import { StorySection } from "../components/StorySection";
+import { ImpactStats } from "../components/ImpactStats";
+import { Campaigns } from "../components/Campaigns";
+import { DonationCta } from "../components/Donation";
+import { Footer } from "../components/Footer";
 
 export default function Home() {
   return (
